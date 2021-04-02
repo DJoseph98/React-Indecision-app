@@ -1,0 +1,26 @@
+.widget {
+    background: $light-blue;
+    margin-bottom: $xl-size;
+}
+
+.widget-header {
+    background: $blue;
+    color: $off-white;
+    padding: $m-size;
+    display: flex;
+    justify-content: space-between;
+    margin:spacing;
+}
+
+.widget-header__title{
+    margin: $spacing;
+}
+
+.widget-header__message{
+    color:$off-white;
+    margin: $spacing;
+    padding: $l-size;
+    text-align: center;
+    border-bottom: 1px solid darken($light-blue, 10%); //darken function sass 
+}
+
