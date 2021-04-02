@@ -67,7 +67,7 @@ class IndecisionApp extends React.Component {
         this.setState(() => ({ selecteOption: undefined }));
     }
     render() {
-        let subtitle = 'The app that it will save you';
+        let subtitle = 'The app that will save you';
         return (
             <div>
                 <Header subtitle={subtitle} />
